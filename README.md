@@ -1,6 +1,6 @@
 # uLBS
 
-Location-based service app for CF.
+Location-based service apps for CF.
 
 ## What is here
 
