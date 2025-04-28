@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MyAccount_TabTopUp_Ok" xml:space="preserve">
+    <value>Afsluiten</value>
+  </data>
+  <data name="MyAccount_GridBalance_Quantity.Text" xml:space="preserve">
+    <value>Aantal</value>
+  </data>
+  <data name="MyAccount_TabContacts_Grid_Header_Provider.HeaderText" xml:space="preserve">
+    <value>Provider</value>
+  </data>
+  <data name="MyAccount_TabContacts_Message_ContactsSaved" xml:space="preserve">
+    <value>Uw aanpassingen zijn opgeslagen.</value>
+  </data>
+  <data name="MyAccount_Text_Tab_Personal_PassWordNew.ToolTip" xml:space="preserve">
+    <value>Maximaal 8 karakters</value>
+  </data>
+  <data name="MyAccount_TabContacts_Label_Intro.Text" xml:space="preserve">
+    <value>Uw onderstaande relaties kunt u hieronder toevoegen, wijzigen en verwijderen. U kunt onder het menu voorkeuren kiezen om een melding of waarschuwing naar deze relaties te sturen.</value>
+  </data>
+  <data name="MyAccount_TabContacts_Message_InvalidPhoneEmail" xml:space="preserve">
+    <value>Uw relaties moeten een telefoonnummer of een Email adres hebben.</value>
+  </data>
+  <data name="MyAccount_TabChangePlan_Ok" xml:space="preserve">
+    <value>Afsluiten</value>
+  </data>
+  <data name="MyAccount_TabMobTrack_Label_Use.Text" xml:space="preserve">
+    <value>Gebruik:</value>
+  </data>
+  <data name="MyAccount_Text_Tab_Personal_PostCode.ToolTip" xml:space="preserve">
+    <value>Maximaal 8 karakters</value>
+  </data>
+  <data name="MyAccount_TabTopUpHeader.Text" xml:space="preserve">
+    <value>Direct Tegoed </value>
+  </data>
+  <data name="MyAccount_TabContacts_Grid_LinkField_Test.Text" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="MyAccount_TabBalance_Text_ToDate.ToolTip" xml:space="preserve">
+    <value>Tot Datum</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_PassWordOld.Text" xml:space="preserve">
+    <value>Huidige wachtwoord:</value>
+  </data>
+  <data name="MyAccount_DDList_Tab_Personal_Item2.Text" xml:space="preserve">
+    <value>Miles</value>
+  </data>
+  <data name="MyAccount_TabBalance_OkCancel.Text_Ok" xml:space="preserve">
+    <value>Laat zien</value>
+  </data>
+  <data name="MyAccount_TabPersonal_DDListLocationLabels_Show.Text" xml:space="preserve">
+    <value>Toon</value>
+  </data>
+  <data name="MyAccount_GridBalance_Total.Text" xml:space="preserve">
+    <value>Betaling</value>
+  </data>
+  <data name="MyAccount_Label_Header_Tab_Personal.Text" xml:space="preserve">
+    <value>Persoonlijk</value>
+  </data>
+  <data name="MyAccount_TabContacts_Grid_Header_Phone.HeaderText" xml:space="preserve">
+    <value>Telefoon</value>
+  </data>
+  <data name="MyAccount_TabContacts_Grid_Validator_Message.ErrorMessage" xml:space="preserve">
+    <value>!</value>
+  </data>
+  <data name="MyAccount_TabContacts_Message_ContactsNotSaved" xml:space="preserve">
+    <value>Uw relatie is NIET verwijderd, in gebruik voor de notificatie?</value>
+  </data>
+  <data name="MyAccount_TabPersonal_DDListLocationLabels_Hide.Text" xml:space="preserve">
+    <value>Verberg</value>
+  </data>
+  <data name="MyAccount_TabDeleteHistoryInfo.Text" xml:space="preserve">
+    <value>Selecteer Ocellus apparaten waarvan de history verwijderd dient te worden en druk op delete.</value>
+  </data>
+  <data name="MyAccount_Text_Tab_Personal_CompanyName.ToolTip" xml:space="preserve">
+    <value>Maximaal 40 karakters</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_DisplayLocationLabels.Text" xml:space="preserve">
+    <value>Locatie labels:</value>
+  </data>
+  <data name="MyAccount_TabMobTrack_Label_Keyword.Text" xml:space="preserve">
+    <value>Kernwoord:</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_CompanyName.Text" xml:space="preserve">
+    <value>Naam:</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_UserTimeOut.Text" xml:space="preserve">
+    <value>Timeout gebruiker:</value>
+  </data>
+  <data name="MyAccount_TabBalance_Label_DeviceName.Text" xml:space="preserve">
+    <value>Apparaat Naam:</value>
+  </data>
+  <data name="MyAccount_TabContacts_Message_SMSMessage" xml:space="preserve">
+    <value>Bevestiging van het FindWhere panel, het mobiele nummer %1 kan toegevoegd worden aan uw contacten.</value>
+  </data>
+  <data name="MyAccount_GridBalance_AccountBalance.Text" xml:space="preserve">
+    <value>Balans:</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Regex_EMail.ErrorMessage" xml:space="preserve">
+    <value>Voer een geldig e-mail adres in</value>
+  </data>
+  <data name="MyAccount_TabBalance_Header.Text" xml:space="preserve">
+    <value>Mijn Balans</value>
+  </data>
+  <data name="MyAccount_TabContacts_Message_InvalidPhone" xml:space="preserve">
+    <value>Het telefoonnummer is niet correct. Kijk er alstublieft even naar.</value>
+  </data>
+  <data name="MyAccount_GridBalance_Note.Text" xml:space="preserve">
+    <value>(Note: Alle bedragen zijn inclusief belasting)</value>
+  </data>
+  <data name="MyAccount_GridBalance_Charge.Text" xml:space="preserve">
+    <value>Kredit</value>
+  </data>
+  <data name="MyAccount_TabContacts_Message_InvalidName" xml:space="preserve">
+    <value>De naam is niet correct. Kijk er alstublieft even naar.</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_PassWordNew.Text" xml:space="preserve">
+    <value>Nieuw wachtwoord:</value>
+  </data>
+  <data name="MyAccount_TabContacts_Message_PersonalSettingsNOTStored" xml:space="preserve">
+    <value>De nieuwe persoonlijke gegevens zijn NIET opgeslagen.</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_MapOptions.Text" xml:space="preserve">
+    <value>Kaart opties:</value>
+  </data>
+  <data name="MyAccount_TrailingText.Text" xml:space="preserve">
+    <value>krediten.</value>
+  </data>
+  <data name="MyAccount_TabContacts_Button_AddContact.OK_Text" xml:space="preserve">
+    <value>Voeg relatie toe</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_PostCode.Text" xml:space="preserve">
+    <value>Postcode</value>
+  </data>
+  <data name="MyAccount_TabChangePlanHeader.Text" xml:space="preserve">
+    <value>Wijzig Bundel</value>
+  </data>
+  <data name="MyAccount_TabContacts_Message_ContactDeleted" xml:space="preserve">
+    <value>Contact verwijderd.</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_LogOutTimeZone.Text" xml:space="preserve">
+    <value>Log Uit Tijd/Tijd Zone:</value>
+  </data>
+  <data name="MyAccount_TabContacts_Message_InvalidEmail" xml:space="preserve">
+    <value>De email naam is niet correct. Kijk er alstublieft even naar.</value>
+  </data>
+  <data name="MyAccount_TabContacts_Grid_Header_Email.HeaderText" xml:space="preserve">
+    <value>email</value>
+  </data>
+  <data name="MyAccount_DDList_Tab_Personal_Item1.Text" xml:space="preserve">
+    <value>Km</value>
+  </data>
+  <data name="MyAccount_TabBalance_Label_From.Text" xml:space="preserve">
+    <value>Van:</value>
+  </data>
+  <data name="MyAccount_TabPersonal_DDList_TimeOut_Basic.Text" xml:space="preserve">
+    <value>Kort (20 Min)</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_TimeZone.Text" xml:space="preserve">
+    <value>Tijd Zone:</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_PassWordConfirm.Text" xml:space="preserve">
+    <value>Bevestig wachtwoord:</value>
+  </data>
+  <data name="MyAccount_TabDeleteHistory_OkCancel.Text_Ok" xml:space="preserve">
+    <value>Verwijder</value>
+  </data>
+  <data name="MyAccount_GridBalance_Cost.Text" xml:space="preserve">
+    <value>Kosten</value>
+  </data>
+  <data name="MyAccount_TabPersonal_DDList_TimeOut_Regular.Text" xml:space="preserve">
+    <value>Middellang (40 Min)</value>
+  </data>
+  <data name="MyAccount_TabMobTrack_Label_SmsActionUseId.Text" xml:space="preserve">
+    <value>smsActionUseId</value>
+  </data>
+  <data name="MyAccount_TabBalance_Text_FromDate.ToolTip" xml:space="preserve">
+    <value>Vanaf Datum</value>
+  </data>
+  <data name="MyAccount_Text_Tab_Personal_PassWordConfirm.ToolTip" xml:space="preserve">
+    <value>Maximaal 8 karakters</value>
+  </data>
+  <data name="MyAccount_Text_Tab_Personal_PassWordOld.ToolTip" xml:space="preserve">
+    <value>Maximaal 8 karakters</value>
+  </data>
+  <data name="MyAccount_TabBalance_OkCancel.Text_OkClose" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="MyAccount_TabDeleteHistory_OkCancel.Text_OkClose" xml:space="preserve">
+    <value>Verwijderen en Afsluiten</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_Intro.Text" xml:space="preserve">
+    <value>De onderstaande gegevens kunt u naar uw eigen voorkeur aanpassen.</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_PassWordIntro.Text" xml:space="preserve">
+    <value>Verander wachtwoord:</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Text_EMail.ToolTip" xml:space="preserve">
+    <value>Maximaal 50 karakters</value>
+  </data>
+  <data name="MyAccount_TabContacts_Message_PersonalSettingsStored" xml:space="preserve">
+    <value>De nieuwe persoonlijke gegevens zijn opgeslagen.</value>
+  </data>
+  <data name="MyAccount_TabMobTrack_Header.Text" xml:space="preserve">
+    <value>Mobiel Volgen</value>
+  </data>
+  <data name="MyAccount_GridBalance_DescriptionFooter.Text" xml:space="preserve">
+    <value>Totaal Credit / Betaling:</value>
+  </data>
+  <data name="MyAccount_TabContacts_Message_ChangesToServer" xml:space="preserve">
+    <value>Uw wijzigingen zijn naar de server gestuurd.</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_Distance.Text" xml:space="preserve">
+    <value>Afstand in:</value>
+  </data>
+  <data name="MyAccount_GridBalance_Description.Text" xml:space="preserve">
+    <value>Beschrijving</value>
+  </data>
+  <data name="MyAccount_GridBalance_DateTime.Text" xml:space="preserve">
+    <value>Tijdstip</value>
+  </data>
+  <data name="MyAccount_TabContacts_Grid_Validator_Message.ToolTip" xml:space="preserve">
+    <value>Geef een naam</value>
+  </data>
+  <data name="MyAccount_Label_Header_Tab_Contacts.Text" xml:space="preserve">
+    <value>Contacten</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_EMail.Text" xml:space="preserve">
+    <value>E-mail adres:</value>
+  </data>
+  <data name="MyAccount_TabBalance_Button_OkCancel_ShowBalance.Text_Ok" xml:space="preserve">
+    <value>Bekijk Balance</value>
+  </data>
+  <data name="MyAccount_TabContacts_Message_Saved" xml:space="preserve">
+    <value>Opgeslagen!</value>
+  </data>
+  <data name="MyAccount_TabHistory_Message_HistoryDeleted" xml:space="preserve">
+    <value>Historie verwijderd</value>
+  </data>
+  <data name="MyAccount_TabPersonal_DDList_TimeOut_Extended.Text" xml:space="preserve">
+    <value>Lang (90 Min)</value>
+  </data>
+  <data name="MyAccount_TabDeleteHistoryHeader.Text" xml:space="preserve">
+    <value>Historie verwijderen.</value>
+  </data>
+  <data name="MyAccount_TabBalance_Label_To.Text" xml:space="preserve">
+    <value>Naar:</value>
+  </data>
+  <data name="MyAccount_TabMobTrack_Label_Locate.Text" xml:space="preserve">
+    <value>Localiseer:</value>
+  </data>
+  <data name="MyAccount_TabChangePlanSelectDeviceChangePlan.Text" xml:space="preserve">
+    <value>Selecteer een apparaat om de bundel te wijzigen:</value>
+  </data>
+  <data name="MyAccount_TabTopUpSelectDeviceTopUp.Text" xml:space="preserve">
+    <value>Selecteer een apparaat om op te waarderen:  </value>
+  </data>
+  <data name="MyAccount_lblMyAccountIntroSMSAction.Text" xml:space="preserve">
+    <value>U kunt uw devices ook op uw mobiel volgen. Dus een computer is niet altijd nodig. Hiervoor kunt u een van de sleutelwoorden die bij de gewenste actie bijhoren sms'en naar Findwhere. Het antwoord wordt naar uw mobiele nummer verstuurd. Bij voorbeeld, u kunt het sleutelwoord 'posite' hernoemen naar 'Vind' en sms'en 'Vind {Mijn_Apparaat_Naam}' naar 0634943968.</value>
+  </data>
+  <data name="MyAccount_AccountBalance.Text" xml:space="preserve">
+    <value>Uw huidige krediet voor apparaat %1 is %2.</value>
+  </data>
+  <data name="MyAccount_TabDeleteHistoryInfoMessage.Text" xml:space="preserve">
+    <value>Selecteer apparaten te verwijderen:</value>
+  </data>
+</root>

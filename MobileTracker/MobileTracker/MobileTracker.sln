@@ -1,0 +1,171 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileTracker", "MobileTracker.csproj", "{F5CB305F-5DF5-4906-BBE3-E599886B384A}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{B900F1C2-3D47-4FEC-85B3-04AAF18C3634}") = "TrackerInstaller", "..\TrackerInstaller\TrackerInstaller.vddproj", "{8DB0C720-5434-47FA-9B99-ACC41E451F8D}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenNETCF", "..\..\components\mobileshared\OpenNETCF\OpenNETCF.csproj", "{ED420160-D2FD-4437-9D28-F10C55E4DB28}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WIMPPPC", "..\..\components\mobileshared\WIMPPPC\WIMPPPC.csproj", "{2C8ADF89-F3EE-4CD5-B6CB-008415AA1547}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileShared", "..\..\components\mobileshared\MobileShared\MobileShared.csproj", "{3B27A576-20E1-4688-8EB7-1EC3E33F335F}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Professional LC|Any CPU = Debug Professional LC|Any CPU
+		Debug Standard LC|Any CPU = Debug Standard LC|Any CPU
+		Debug Standard|Any CPU = Debug Standard|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		iFindPro|Any CPU = iFindPro|Any CPU
+		LIVECONTACTS|Any CPU = LIVECONTACTS|Any CPU
+		NDoc|Any CPU = NDoc|Any CPU
+		PPC|Any CPU = PPC|Any CPU
+		Release Professional LC|Any CPU = Release Professional LC|Any CPU
+		Release Standard LC|Any CPU = Release Standard LC|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.Debug Professional LC|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.Debug Professional LC|Any CPU.Build.0 = Debug|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.Debug Professional LC|Any CPU.Deploy.0 = Debug|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.Debug Standard LC|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.Debug Standard LC|Any CPU.Build.0 = Debug|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.Debug Standard LC|Any CPU.Deploy.0 = Debug|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.Debug Standard|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.Debug Standard|Any CPU.Build.0 = Debug|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.Debug Standard|Any CPU.Deploy.0 = Debug|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.iFindPro|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.iFindPro|Any CPU.Build.0 = Release|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.iFindPro|Any CPU.Deploy.0 = Release|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.LIVECONTACTS|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.LIVECONTACTS|Any CPU.Build.0 = Release|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.LIVECONTACTS|Any CPU.Deploy.0 = Release|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.NDoc|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.NDoc|Any CPU.Build.0 = Release|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.NDoc|Any CPU.Deploy.0 = Release|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.PPC|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.PPC|Any CPU.Build.0 = Release|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.PPC|Any CPU.Deploy.0 = Release|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.Release Professional LC|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.Release Professional LC|Any CPU.Build.0 = Release|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.Release Professional LC|Any CPU.Deploy.0 = Release|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.Release Standard LC|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.Release Standard LC|Any CPU.Build.0 = Release|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.Release Standard LC|Any CPU.Deploy.0 = Release|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5CB305F-5DF5-4906-BBE3-E599886B384A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8DB0C720-5434-47FA-9B99-ACC41E451F8D}.Debug Professional LC|Any CPU.ActiveCfg = Debug
+		{8DB0C720-5434-47FA-9B99-ACC41E451F8D}.Debug Professional LC|Any CPU.Build.0 = Debug
+		{8DB0C720-5434-47FA-9B99-ACC41E451F8D}.Debug Standard LC|Any CPU.ActiveCfg = Debug
+		{8DB0C720-5434-47FA-9B99-ACC41E451F8D}.Debug Standard LC|Any CPU.Build.0 = Debug
+		{8DB0C720-5434-47FA-9B99-ACC41E451F8D}.Debug Standard|Any CPU.ActiveCfg = Debug
+		{8DB0C720-5434-47FA-9B99-ACC41E451F8D}.Debug Standard|Any CPU.Build.0 = Debug
+		{8DB0C720-5434-47FA-9B99-ACC41E451F8D}.Debug|Any CPU.ActiveCfg = Debug
+		{8DB0C720-5434-47FA-9B99-ACC41E451F8D}.iFindPro|Any CPU.ActiveCfg = Release
+		{8DB0C720-5434-47FA-9B99-ACC41E451F8D}.iFindPro|Any CPU.Build.0 = Release
+		{8DB0C720-5434-47FA-9B99-ACC41E451F8D}.LIVECONTACTS|Any CPU.ActiveCfg = Release
+		{8DB0C720-5434-47FA-9B99-ACC41E451F8D}.LIVECONTACTS|Any CPU.Build.0 = Release
+		{8DB0C720-5434-47FA-9B99-ACC41E451F8D}.NDoc|Any CPU.ActiveCfg = Release
+		{8DB0C720-5434-47FA-9B99-ACC41E451F8D}.NDoc|Any CPU.Build.0 = Release
+		{8DB0C720-5434-47FA-9B99-ACC41E451F8D}.PPC|Any CPU.ActiveCfg = Release
+		{8DB0C720-5434-47FA-9B99-ACC41E451F8D}.PPC|Any CPU.Build.0 = Release
+		{8DB0C720-5434-47FA-9B99-ACC41E451F8D}.Release Professional LC|Any CPU.ActiveCfg = Release
+		{8DB0C720-5434-47FA-9B99-ACC41E451F8D}.Release Professional LC|Any CPU.Build.0 = Release
+		{8DB0C720-5434-47FA-9B99-ACC41E451F8D}.Release Standard LC|Any CPU.ActiveCfg = Release
+		{8DB0C720-5434-47FA-9B99-ACC41E451F8D}.Release Standard LC|Any CPU.Build.0 = Release
+		{8DB0C720-5434-47FA-9B99-ACC41E451F8D}.Release|Any CPU.ActiveCfg = Release
+		{ED420160-D2FD-4437-9D28-F10C55E4DB28}.Debug Professional LC|Any CPU.ActiveCfg = Debug Professional LC|Any CPU
+		{ED420160-D2FD-4437-9D28-F10C55E4DB28}.Debug Professional LC|Any CPU.Build.0 = Debug Professional LC|Any CPU
+		{ED420160-D2FD-4437-9D28-F10C55E4DB28}.Debug Standard LC|Any CPU.ActiveCfg = Debug Standard LC|Any CPU
+		{ED420160-D2FD-4437-9D28-F10C55E4DB28}.Debug Standard LC|Any CPU.Build.0 = Debug Standard LC|Any CPU
+		{ED420160-D2FD-4437-9D28-F10C55E4DB28}.Debug Standard|Any CPU.ActiveCfg = Debug Standard|Any CPU
+		{ED420160-D2FD-4437-9D28-F10C55E4DB28}.Debug Standard|Any CPU.Build.0 = Debug Standard|Any CPU
+		{ED420160-D2FD-4437-9D28-F10C55E4DB28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED420160-D2FD-4437-9D28-F10C55E4DB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED420160-D2FD-4437-9D28-F10C55E4DB28}.iFindPro|Any CPU.ActiveCfg = iFindPro|Any CPU
+		{ED420160-D2FD-4437-9D28-F10C55E4DB28}.iFindPro|Any CPU.Build.0 = iFindPro|Any CPU
+		{ED420160-D2FD-4437-9D28-F10C55E4DB28}.LIVECONTACTS|Any CPU.ActiveCfg = LIVECONTACTS|Any CPU
+		{ED420160-D2FD-4437-9D28-F10C55E4DB28}.LIVECONTACTS|Any CPU.Build.0 = LIVECONTACTS|Any CPU
+		{ED420160-D2FD-4437-9D28-F10C55E4DB28}.NDoc|Any CPU.ActiveCfg = NDoc|Any CPU
+		{ED420160-D2FD-4437-9D28-F10C55E4DB28}.NDoc|Any CPU.Build.0 = NDoc|Any CPU
+		{ED420160-D2FD-4437-9D28-F10C55E4DB28}.PPC|Any CPU.ActiveCfg = PPC|Any CPU
+		{ED420160-D2FD-4437-9D28-F10C55E4DB28}.PPC|Any CPU.Build.0 = PPC|Any CPU
+		{ED420160-D2FD-4437-9D28-F10C55E4DB28}.Release Professional LC|Any CPU.ActiveCfg = Release Professional LC|Any CPU
+		{ED420160-D2FD-4437-9D28-F10C55E4DB28}.Release Professional LC|Any CPU.Build.0 = Release Professional LC|Any CPU
+		{ED420160-D2FD-4437-9D28-F10C55E4DB28}.Release Standard LC|Any CPU.ActiveCfg = Release Standard LC|Any CPU
+		{ED420160-D2FD-4437-9D28-F10C55E4DB28}.Release Standard LC|Any CPU.Build.0 = Release Standard LC|Any CPU
+		{ED420160-D2FD-4437-9D28-F10C55E4DB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED420160-D2FD-4437-9D28-F10C55E4DB28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C8ADF89-F3EE-4CD5-B6CB-008415AA1547}.Debug Professional LC|Any CPU.ActiveCfg = Debug Professional LC|Any CPU
+		{2C8ADF89-F3EE-4CD5-B6CB-008415AA1547}.Debug Professional LC|Any CPU.Build.0 = Debug Professional LC|Any CPU
+		{2C8ADF89-F3EE-4CD5-B6CB-008415AA1547}.Debug Standard LC|Any CPU.ActiveCfg = Debug Standard LC|Any CPU
+		{2C8ADF89-F3EE-4CD5-B6CB-008415AA1547}.Debug Standard LC|Any CPU.Build.0 = Debug Standard LC|Any CPU
+		{2C8ADF89-F3EE-4CD5-B6CB-008415AA1547}.Debug Standard|Any CPU.ActiveCfg = Debug Standard|Any CPU
+		{2C8ADF89-F3EE-4CD5-B6CB-008415AA1547}.Debug Standard|Any CPU.Build.0 = Debug Standard|Any CPU
+		{2C8ADF89-F3EE-4CD5-B6CB-008415AA1547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8ADF89-F3EE-4CD5-B6CB-008415AA1547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C8ADF89-F3EE-4CD5-B6CB-008415AA1547}.iFindPro|Any CPU.ActiveCfg = iFindPro|Any CPU
+		{2C8ADF89-F3EE-4CD5-B6CB-008415AA1547}.iFindPro|Any CPU.Build.0 = iFindPro|Any CPU
+		{2C8ADF89-F3EE-4CD5-B6CB-008415AA1547}.LIVECONTACTS|Any CPU.ActiveCfg = LIVECONTACTS|Any CPU
+		{2C8ADF89-F3EE-4CD5-B6CB-008415AA1547}.LIVECONTACTS|Any CPU.Build.0 = LIVECONTACTS|Any CPU
+		{2C8ADF89-F3EE-4CD5-B6CB-008415AA1547}.NDoc|Any CPU.ActiveCfg = iFindPro|Any CPU
+		{2C8ADF89-F3EE-4CD5-B6CB-008415AA1547}.NDoc|Any CPU.Build.0 = iFindPro|Any CPU
+		{2C8ADF89-F3EE-4CD5-B6CB-008415AA1547}.PPC|Any CPU.ActiveCfg = PPC|Any CPU
+		{2C8ADF89-F3EE-4CD5-B6CB-008415AA1547}.PPC|Any CPU.Build.0 = PPC|Any CPU
+		{2C8ADF89-F3EE-4CD5-B6CB-008415AA1547}.Release Professional LC|Any CPU.ActiveCfg = Release Professional LC|Any CPU
+		{2C8ADF89-F3EE-4CD5-B6CB-008415AA1547}.Release Professional LC|Any CPU.Build.0 = Release Professional LC|Any CPU
+		{2C8ADF89-F3EE-4CD5-B6CB-008415AA1547}.Release Standard LC|Any CPU.ActiveCfg = Release Standard LC|Any CPU
+		{2C8ADF89-F3EE-4CD5-B6CB-008415AA1547}.Release Standard LC|Any CPU.Build.0 = Release Standard LC|Any CPU
+		{2C8ADF89-F3EE-4CD5-B6CB-008415AA1547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C8ADF89-F3EE-4CD5-B6CB-008415AA1547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B27A576-20E1-4688-8EB7-1EC3E33F335F}.Debug Professional LC|Any CPU.ActiveCfg = Debug Professional LC|Any CPU
+		{3B27A576-20E1-4688-8EB7-1EC3E33F335F}.Debug Professional LC|Any CPU.Build.0 = Debug Professional LC|Any CPU
+		{3B27A576-20E1-4688-8EB7-1EC3E33F335F}.Debug Standard LC|Any CPU.ActiveCfg = Debug Standard LC|Any CPU
+		{3B27A576-20E1-4688-8EB7-1EC3E33F335F}.Debug Standard LC|Any CPU.Build.0 = Debug Standard LC|Any CPU
+		{3B27A576-20E1-4688-8EB7-1EC3E33F335F}.Debug Standard|Any CPU.ActiveCfg = Debug Standard|Any CPU
+		{3B27A576-20E1-4688-8EB7-1EC3E33F335F}.Debug Standard|Any CPU.Build.0 = Debug Standard|Any CPU
+		{3B27A576-20E1-4688-8EB7-1EC3E33F335F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B27A576-20E1-4688-8EB7-1EC3E33F335F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B27A576-20E1-4688-8EB7-1EC3E33F335F}.iFindPro|Any CPU.ActiveCfg = iFindPro|Any CPU
+		{3B27A576-20E1-4688-8EB7-1EC3E33F335F}.iFindPro|Any CPU.Build.0 = iFindPro|Any CPU
+		{3B27A576-20E1-4688-8EB7-1EC3E33F335F}.LIVECONTACTS|Any CPU.ActiveCfg = LIVECONTACTS|Any CPU
+		{3B27A576-20E1-4688-8EB7-1EC3E33F335F}.LIVECONTACTS|Any CPU.Build.0 = LIVECONTACTS|Any CPU
+		{3B27A576-20E1-4688-8EB7-1EC3E33F335F}.NDoc|Any CPU.ActiveCfg = iFindPro|Any CPU
+		{3B27A576-20E1-4688-8EB7-1EC3E33F335F}.NDoc|Any CPU.Build.0 = iFindPro|Any CPU
+		{3B27A576-20E1-4688-8EB7-1EC3E33F335F}.PPC|Any CPU.ActiveCfg = PPC|Any CPU
+		{3B27A576-20E1-4688-8EB7-1EC3E33F335F}.PPC|Any CPU.Build.0 = PPC|Any CPU
+		{3B27A576-20E1-4688-8EB7-1EC3E33F335F}.Release Professional LC|Any CPU.ActiveCfg = Release Professional LC|Any CPU
+		{3B27A576-20E1-4688-8EB7-1EC3E33F335F}.Release Professional LC|Any CPU.Build.0 = Release Professional LC|Any CPU
+		{3B27A576-20E1-4688-8EB7-1EC3E33F335F}.Release Standard LC|Any CPU.ActiveCfg = Release Standard LC|Any CPU
+		{3B27A576-20E1-4688-8EB7-1EC3E33F335F}.Release Standard LC|Any CPU.Build.0 = Release Standard LC|Any CPU
+		{3B27A576-20E1-4688-8EB7-1EC3E33F335F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B27A576-20E1-4688-8EB7-1EC3E33F335F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

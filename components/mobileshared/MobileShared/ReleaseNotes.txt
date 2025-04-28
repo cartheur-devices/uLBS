@@ -1,0 +1,68 @@
+Installation instructions
+Copy .cab file to the device. Execute cab file on the device to start installation.
+
+Version 0.1 - 01/18/2008
+•	Password to unlock settings is ‘findwhere’
+•	Windows Mobile Standard & Professional both have different installation files.
+•	Server is configured to OTA 92.65.62.41 which ends up in the FOLUK staging panel (app.ifindwhere.net)
+•	Client hasn’t got roaming detection yet, so only domestic interval can be applied.
+•	The following profile settings can be set through the panel:
+	o	Domestic interval
+	o	International interval
+•	CellID data is currently not available, so if your device doesn’t have a GPS onboard, connect an external, otherwise no positions are sent
+•	Application is tested on my Samsung i620 only
+
+----
+Version 0.2 - 01/25/2008
+•	Added Roaming detection, Domestic/International interval can be used now
+•	Changed logo -> findwhere logo
+•	Added application icon in Start menu
+•	Added skip position plot
+•	Textual changes according to latest specs
+•	Added set-up wizard, for testing purposes it's displayed everythime application starts up.
+•	Added SMS containing IMSI to identify new devices
+•	Added menu item 'Start/stop sending positions'
+•	Activated settings item 'Postition Exchange'
+•	Auto-start application on device startup
+
+----
+Version 0.3 - 01/01/2008
+•	Added 'minimize' option in menu
+•	Disabled 'OK' button when searching for GPS fix in wizard
+Version 0.3.1 - 02/04/2008
+•	Fixed GPS bug that caused a crash in the US, because of different coordinates.
+Version 0.3.2 - 02/04/2008
+•	Enabled text messages, was commented out while testing
+
+----
+Version 0.4 - 02/08/2008
+•	Disabled 'ok' button upper right corner of settings forms for professional edition, you were able to close form without saving settings.
+•	Valid GPS was set to be max. 20 seconds old, now it's set qual to the current interval
+•	Increased UDP timeout, 2sec -> 10sec
+•	Changed settings password to a shorter one: fw
+•	Implemented Connection Manager class, meaning device will setup a connection is no one is available
+•	Implemented minimize option/icon for Professional 
+
+----
+Version 0.4.1 - 02/15/2008
+•	Implemented CellID for Professional Devices
+•	Added hide button in main form
+•	Auto hide application at startup
+•	Smart control repositioning in settings login, because of show/hide inputpanel covered controls
+•	Added findwhere logo to background
+•	Only show wizard firsttime, you won't see it anymore if you've completed it once
+•	Added version number in about screen
+
+----
+Version 0.4.2 - 02/22/2008
+•	Detect panic button (up button) while app running in foreground
+•	Prevent professional edition to go into sleep modus (locations are sent while screen is off), standard edition doesn't have a sleep modus
+•	Added software update check to professional edition, still disabled however, work in progress
+•	Added disconnect after plot functionality
+•	Removed IAP from settings and wizard since this is not configurable at application level for windows mobile
+
+----
+Version 6.0.2 - 20/10/2009
+•	Move code development to in-house from outside contractor.
+•	Removed topmost logo on the main screen.
+•	Centered reporting labels on the main screen.

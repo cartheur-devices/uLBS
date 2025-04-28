@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Geofence_Message_SelectGeoFenceType" xml:space="preserve">
+    <value>اختر نوع المحدد الجغرافي</value>
+  </data>
+  <data name="Geofence_TabViewDelete_Grid_NoDataAvailable.EmptyDataText" xml:space="preserve">
+    <value>لاتوجد معلومات</value>
+  </data>
+  <data name="Geofence_TabRelation_Label_Active.Text" xml:space="preserve">
+    <value>فعال</value>
+  </data>
+  <data name="Geofence_TabRelation_Label_To.Text" xml:space="preserve">
+    <value>الى</value>
+  </data>
+  <data name="Geofence_TabViewDelete_Grid_To.HeaderText" xml:space="preserve">
+    <value>الى</value>
+  </data>
+  <data name="Geofence_TabArea_Label_EnterNewAreaName.Text" xml:space="preserve">
+    <value>ادخل اسم جديد للمنطقة</value>
+  </data>
+  <data name="Geofence_Message_OneMoreMembers" xml:space="preserve">
+    <value>اختر واحد أو اكثر من جهاز</value>
+  </data>
+  <data name="Geofence_TabViewDelete_Grid_GeoFence.Text" xml:space="preserve">
+    <value>المحدد الجغرافي</value>
+  </data>
+  <data name="Geofence_TabArea_Label_SelectGefenceName.Text" xml:space="preserve">
+    <value>اختر اسم المحدد الجغرافي</value>
+  </data>
+  <data name="Geofence_TabRelation_DDList_OutsideDefinedProfile" xml:space="preserve">
+    <value>خارج النموذج المحدد</value>
+  </data>
+  <data name="Geofence_TabRelation_Label_SendNotificationOnce.Text" xml:space="preserve">
+    <value> ارسل التنبيه مرة واحدة فقط</value>
+  </data>
+  <data name="Geofence_TabViewDelete_Grid_Active.HeaderText" xml:space="preserve">
+    <value>فعال</value>
+  </data>
+  <data name="Geofence_TabViewDelete_Grid_Device.HeaderText" xml:space="preserve">
+    <value>الجهاز</value>
+  </data>
+  <data name="Geofence_TabRelation_Label_GeofenceType.Text" xml:space="preserve">
+    <value> نوع المحدد الجغرافي</value>
+  </data>
+  <data name="Geofence_Error_MaxNumberOfOffences" xml:space="preserve">
+    <value>تم بلوغ الحد الاقصى لعدد المحددات الجغرافية الرجاء حذف احد المحددات سيتم تخزين المحدد الجديد عند تاكيد حذف المحدد السابق من الجهاز</value>
+  </data>
+  <data name="Geofence_Status_Scheduled" xml:space="preserve">
+    <value>سيرسل المحدد الجغرافي الى الجهاز</value>
+  </data>
+  <data name="Geofence_TabRelation_Label_From.Text" xml:space="preserve">
+    <value>من</value>
+  </data>
+  <data name="Geofence_TabArea_Label_MoveChangeGeofence.Text" xml:space="preserve">
+    <value>تحريك المحدد و / أو تغيير المجال ( اختياري)</value>
+  </data>
+  <data name="Geofence_TabRelation_DDList_SelectOption.Text" xml:space="preserve">
+    <value>اختر احد الخيارات التالية</value>
+  </data>
+  <data name="Geofence_TabViewDelete_Grid_AlertOnce.HeaderText" xml:space="preserve">
+    <value>تنبيه لمرة واحدة</value>
+  </data>
+  <data name="Geofence_Message_SelectAreaName" xml:space="preserve">
+    <value>اختر اسم المنطقة</value>
+  </data>
+  <data name="Geofence_TabArea_Button_DeleteGeofence.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="Geofence_TabRelation_Label_Intro.Text" xml:space="preserve">
+    <value>العلاقة هي عبارة عن مزيج من عضو أو اكثر و منطقة معينة و خاصة و مدة زمنية التي سوف يتم ارسال تقارير عنها عندما تحدث , الرجاء الضغط على حفظ لتخزين علاقة جديدة</value>
+  </data>
+  <data name="Geofence_TabViewDelete_Grid_From.HeaderText" xml:space="preserve">
+    <value>من</value>
+  </data>
+  <data name="Geofence_Common_SelectOption" xml:space="preserve">
+    <value>اختر احد الخيارات التالية</value>
+  </data>
+  <data name="Geofence_TabViewDelete_Grid_Status.HeaderText" xml:space="preserve">
+    <value>الحالة</value>
+  </data>
+  <data name="Geofence_TabViewDelete_Grid_GeoFenceHeader.HeaderText" xml:space="preserve">
+    <value>المحدد الجغرافي</value>
+  </data>
+  <data name="Geofence_TabRelation_Button_OkCancel.Text_Ok" xml:space="preserve">
+    <value>تخزين</value>
+  </data>
+  <data name="Geofence_TabRelation_DDList_NotificationOnEntry" xml:space="preserve">
+    <value>تنبيه عند الدخول</value>
+  </data>
+  <data name="Geofence_TabRelation_Text_DateTo.ToolTip" xml:space="preserve">
+    <value>تاريخ الى:</value>
+  </data>
+  <data name="Geofence_TabArea_Button_NewGeofence.Text" xml:space="preserve">
+    <value>جديد</value>
+  </data>
+  <data name="Geofence_TabViewDelete_Grid_CSharp_Crossing" xml:space="preserve">
+    <value>تقاطع</value>
+  </data>
+  <data name="Geofence_Status_Sent" xml:space="preserve">
+    <value>ارسل المحدد الجغرافي الى الجهاز</value>
+  </data>
+  <data name="Geofence_TabViewDelete_Header.Text" xml:space="preserve">
+    <value>عرض/ حذف</value>
+  </data>
+  <data name="Geofence_Common_SelectFence" xml:space="preserve">
+    <value>الرجاء اختيار المحدد الجغرافي</value>
+  </data>
+  <data name="Geofence_TabViewDelete_Grid_InOut.Text" xml:space="preserve">
+    <value>المدة</value>
+  </data>
+  <data name="Geofence_TabArea_Label_CreateFence.Text" xml:space="preserve">
+    <value>انشاء المحدد الجغرافي: بعد ادخال اسم جديد الرجاء الضغط على الخريطة لتحديد مركز المحدد ثم اضغط على حفظ و اغلاق لحفظ الاعدادات</value>
+  </data>
+  <data name="Geofence_TabRelation_DDList_Always" xml:space="preserve">
+    <value>دائما</value>
+  </data>
+  <data name="Geofence_TabArea_Header.Text" xml:space="preserve">
+    <value>المكان</value>
+  </data>
+  <data name="Geofence_TabRelation_DDList_DuringDefinedProfile" xml:space="preserve">
+    <value>خلال النموذج المحدد</value>
+  </data>
+  <data name="Geofence_Status_ToBeDeleted" xml:space="preserve">
+    <value>سيحذف المحدد الجغرافي </value>
+  </data>
+  <data name="Geofence_TabArea_Label_ToMoveText.Text" xml:space="preserve">
+    <value>لتحريك المحدد بخطوات صغيرة يمكنك استعمال الاسهم ادناه اضغط(-) اذا كنت تريد تصغير مجال المحدد أو (+) لزيادة المجال , عندما تحصل على المجال المطلوب الرجاء الضغط على زر حفظ</value>
+  </data>
+  <data name="Geofence_Message_SelectOption" xml:space="preserve">
+    <value>الرجاء اختيار احد الخيارات من القائمة الفعالة</value>
+  </data>
+  <data name="Geofence_Message_RelationDeleted" xml:space="preserve">
+    <value>حذف العلاقة</value>
+  </data>
+  <data name="Geofence_TabArea_Button_InsertGeofence.Text" xml:space="preserve">
+    <value>اغلاق</value>
+  </data>
+  <data name="Geofence_TabArea_Button_CancelGeofenceClose.Text" xml:space="preserve">
+    <value>اغلاق</value>
+  </data>
+  <data name="Geofence_TabViewDelete_Grid_InOutHeader.HeaderText" xml:space="preserve">
+    <value>داخل/ خارج</value>
+  </data>
+  <data name="Geofence_TabRelation_Label_SelectDeviceName.Text" xml:space="preserve">
+    <value>اختر اسم الجهاز</value>
+  </data>
+  <data name="Geofence_TabRelation_Label_AreaName.Text" xml:space="preserve">
+    <value> اسم المنطقة</value>
+  </data>
+  <data name="Geofence_TabRelation_DDList_NotificationOnExit" xml:space="preserve">
+    <value>تنبيه عند الخروج</value>
+  </data>
+  <data name="Geofence_TabArea_Button_GeofenceStoreClose.Text" xml:space="preserve">
+    <value>تخزين و اغلاق</value>
+  </data>
+  <data name="Geofence_TabRelation_Text_FromDate.ToolTip" xml:space="preserve">
+    <value>تاريخ من:</value>
+  </data>
+  <data name="Geofence_TabRelation_Check_Yes.Text" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="Geofence_TabRelation_Header.Text" xml:space="preserve">
+    <value>العلاقة</value>
+  </data>
+  <data name="Geofence_Message_RelationStored" xml:space="preserve">
+    <value>تم تخرين العلاقة</value>
+  </data>
+  <data name="Geofence_TabArea_Label_SelectAreaNameText.Text" xml:space="preserve">
+    <value>اختار اسم المجال لإيجاد أو تغيير.سيتم عرض مزيد من التعليمات. بعد تغيير وتخيزن محدد جغرافي موجود من قبل سوف تحتاج إلى تفحص العلاقات والإخطارات  لتحديث محددك الجغرافي. إذا كنت تريد تحرك الجدار إلى مكان آخر ، احذف الجدار الحالي وخلق جدار جديد.</value>
+  </data>
+  <data name="Geofence_TabArea_Button_EditStore.Text" xml:space="preserve">
+    <value>تخزين</value>
+  </data>
+  <data name="Geofence_ButtonDelete.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+</root>

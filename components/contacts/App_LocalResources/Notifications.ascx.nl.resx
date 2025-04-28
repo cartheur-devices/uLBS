@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Notifications_spec_15_txt_pulldown" xml:space="preserve">
+    <value>Wanneer het SMS tegoed te laag is</value>
+  </data>
+  <data name="Notifications_spec_11_txt_pulldown" xml:space="preserve">
+    <value>Bij een snelheidsovertreding</value>
+  </data>
+  <data name="Notifications_spec_14_txt_pulldown" xml:space="preserve">
+    <value>Bij einde looptijd wanneer in beweging</value>
+  </data>
+  <data name="Notifications_spec_9_txt_pulldown" xml:space="preserve">
+    <value>When credit is zero</value>
+  </data>
+  <data name="Notifications_Label_SelectDevice.Text" xml:space="preserve">
+    <value>2. Selecteer een Apparaat:</value>
+  </data>
+  <data name="Notifications_spec_22_txt_pulldown" xml:space="preserve">
+    <value>C.A.T.Seye device incoming position</value>
+  </data>
+  <data name="Notifications_spec_2_txt_pulldown" xml:space="preserve">
+    <value>Member leaves a geo-fence</value>
+  </data>
+  <data name="Notifications_spec_21_txt_pulldown" xml:space="preserve">
+    <value>Wanneer "%input3" triggers</value>
+  </data>
+  <data name="Notifications_spec_12_txt_pulldown" xml:space="preserve">
+    <value>Bij een Geo-fence schending</value>
+  </data>
+  <data name="Notifications_spec_1_txt_pulldown" xml:space="preserve">
+    <value>Apparaat komt een geo-fence binnen</value>
+  </data>
+  <data name="Notifications_spec_8_txt_pulldown" xml:space="preserve">
+    <value>Als uw tegoed te laag is</value>
+  </data>
+  <data name="SendAction_Label_Intro.Text" xml:space="preserve">
+    <value>....</value>
+  </data>
+  <data name="Notifications_spec_19_txt_pulldown" xml:space="preserve">
+    <value>Wanneer "%input1" triggers</value>
+  </data>
+  <data name="Notifications_CS_OkClicked_SelectOne" xml:space="preserve">
+    <value>Selecteer ten minste één Contactpersoon.</value>
+  </data>
+  <data name="Notifications_spec_7_txt_pulldown" xml:space="preserve">
+    <value>Als het apparaat wordt verplaatst</value>
+  </data>
+  <data name="Notifications_Label_SelectContacts.Text" xml:space="preserve">
+    <value>3. Selecteer een Contactpersoon:</value>
+  </data>
+  <data name="Notifications_Grid_Choose.HeaderText" xml:space="preserve">
+    <value>Kies:</value>
+  </data>
+  <data name="Notifications_Grid_Email.HeaderText" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Notifications_Label_SelectNotification.Text" xml:space="preserve">
+    <value>1. Selecteer een melding:</value>
+  </data>
+  <data name="Notifications_Grid_Text.HeaderText" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="Notifications_spec_23_txt_pulldown" xml:space="preserve">
+    <value>When periodic report received</value>
+  </data>
+  <data name="Notifications_spec_18_txt_pulldown" xml:space="preserve">
+    <value>Bij een Geo-fence Cross Schending</value>
+  </data>
+  <data name="Notifications_spec_5_txt_pulldown" xml:space="preserve">
+    <value>Bij een 'Medium Priority' Melding</value>
+  </data>
+  <data name="Notifications_spec_3_txt_pulldown" xml:space="preserve">
+    <value>Batterij is bijna leeg</value>
+  </data>
+  <data name="Notifications_spec_6_txt_pulldown" xml:space="preserve">
+    <value>Bij een 'Low Priority' Melding</value>
+  </data>
+  <data name="Notifications_spec_20_txt_pulldown" xml:space="preserve">
+    <value>Wanneer "%input2" triggers</value>
+  </data>
+  <data name="Notifications_spec_13_txt_pulldown" xml:space="preserve">
+    <value>Bij een Geo-fence lpa gecentreerde schending</value>
+  </data>
+  <data name="Notifications_spec_17_txt_pulldown" xml:space="preserve">
+    <value>Wanneer Paniek Button is gebruikt</value>
+  </data>
+  <data name="Notifications_spec_24_txt_pulldown" xml:space="preserve">
+    <value>Wanneer bestuurder inlogt</value>
+  </data>
+  <data name="Notifications_spec_25_txt_pulldown" xml:space="preserve">
+    <value>When bestuurder uitlogt</value>
+  </data>
+  <data name="Notifications_Label_Intro.Text" xml:space="preserve">
+    <value>Om notificaties in te stellen, aan te passen of te verwijderen moet u een melding in de dropdown lijst kiezen en een apparaat. Daarna moet u deze instelling opslaan.</value>
+  </data>
+  <data name="Notifications_spec_4_txt_pulldown" xml:space="preserve">
+    <value>Bij een 'High Priority Melding' ontvangt</value>
+  </data>
+  <data name="Notifications_CS_OkClicked_Stored" xml:space="preserve">
+    <value>De instellingen voor de notificaties zijn opgeslagen.</value>
+  </data>
+  <data name="Notifications_spec_10_txt_pulldown" xml:space="preserve">
+    <value>Wanneer de looptijd is afgelopen</value>
+  </data>
+  <data name="Notifications_spec_26_txt_pulldown" xml:space="preserve">
+    <value>Begin Beweging</value>
+  </data>
+  <data name="Notifications_spec_27_txt_pulldown" xml:space="preserve">
+    <value>Eind Beweging</value>
+  </data>
+</root>

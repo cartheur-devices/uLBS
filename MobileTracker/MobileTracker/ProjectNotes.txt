@@ -1,0 +1,81 @@
+In pursuit of the first Borg...
+
+18.02.2010-1505: This project is the mobile tracking client that send communication the server over GPRS, GSM, and WiFi.
+
+1506: I suppose the first question is: what does this look like? The second: what are its features? The third: how to best 
+	write the prototype in terms of a patchwork of code from other successful projects?
+	
+1527: After some fumbling about, the proper project is ready.
+
+A list:
+
+	1. Two devices: one hides and one seeks. Both are controllable via the server interface,
+	
+	2. Two modes: 
+			a. 'Far' Mode -- using a large compass with arrows indicating the direction over 8 cardinals, (Menu button for starters-autolater)
+			b. 'Near" Mode - using a large map autoresolving to the resolution between your device and the one being looked for, (menu button)
+	3. 'Live' trail tracking using refresh rates set by the user,
+	4. Menu tab allowing set of who to track based on contacts set into their account,
+	5. Menu button: 'Find' (far mode), 'Trail' (near mode).
+	
+Good start! What code do I need to gather these components from?
+	
+	1,2. iFindMobile code,
+	3. Livetrail code from panel,
+	4. Add/Edit/Delete Contacts from panel,
+	5. Googlemaps (script and classes) from panel,
+	and,
+	JNet Bridge in case data object code missing from .NET layer.
+
+1611: Have gathered and cleaned the svns out. How to start? Start with building a 'near' mode as main screen with two buttons in the menu for 
+	maximum display space given the orientation.
+
+	a. Step One: The windows form with a map using:
+				1. NOC
+				2. Google Script
+				
+		To reverse geocode and plot on the map. Perhaps a hover with a finger tap.
+	
+	b. Step Two: Add an Send Alert! link on the MenuClick
+				1. AlarmType set to a static value of '179'.
+		
+	c. Step Three: Add functionality to add the AlarmEvent (contact - 'Find') to the map plot engine, then on tap selection, button 'Trail' active.
+				1. A little ambiguous but the idea is okay.
+				
+	d. No Wizard in the first version.
+	
+	e. Appendix (advanced): On certain types of alarms, server & tag client, can trigger the camera on the remote phone to on.
+				
+1621: Let's get to work. Checked that Verklizan requirements are only 20% of what this app is intended to do. Easy then, not too divgent given the copious 
+	amounts of time I have alotted myself and the speed at which I work.
+	
+1651: Have gotten the winform set up with buttons and events. Continue with the preferences and the connection to server.
+	
+1657: Time to add in the shared components, they are formidable but must be addressed.
+
+2045: Later and getting this cleaned very nicely. Starting now on coding. Setting up log files on exception handles.
+
+2051: Introduced the beginnings of the files and its config file. Now to the map before closing down early this night.
+
+	Google maps will not work in the manner in which i think i want it to be. Will have to use another solution such as:
+	
+	http://www.codeplex.com/SharpMap a little heavy and uncertain...http://www.mapquestapi.com/geocoding/ for addressing
+	here is the gem: http://www.mapquestapi.com/staticmap/ and has directions too. Excellent, everything I need. Where's my account
+	login info? On alison in email if I remember.
+
+23.02.2010-1333: Back on track again after getting the model and hash out of my hair. Got the pace and got it strong and long. Just 
+	like the dream--two long black-clad legs with shoes streching out before me gliding across the stone floor past the other men 
+	in blue suits with red ties. And the chassis (with front clip removed) black, being inspected by the others--it was good.
+	
+1337: I recieved an email that the Verlizan interface is ready, Oracle101 was a shining success, due nearly all from the Allshare.Tester 
+	project summer 2008. This leaves the dire need for a functioning and triggerable client before messaging can be tested properly. I 
+	will only pursue a dynamic functional test, not a static test.
+	
+1339: There are 78 errors presently, this is the task I will undertake when I return.
+
+1648: It would seem I need to set up the front screen from the existing client to best clear the errors at hand then modify later.
+
+1852: The project has built. Now to start the process of debugging.
+
+
+

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="EditMember_DDList_SelectedDevice.Text" xml:space="preserve">
+    <value>Select Device Name</value>
+  </data>
+	<data name="EditMember_Label_Intro" xml:space="preserve">
+    <value>To edit device name, simply select a device and enter a new name. Then, click Save.&lt;br/&gt;&lt;i&gt;Note, you can not edit the mobile phone number.&lt;/i&gt;</value>
+  </data>
+	<data name="EditMember_Wiconfig_Label_ReloadMessage_Intro" xml:space="preserve">
+    <value>Select device name and click Save to reload your Mobile Application.</value>
+  </data>
+	<data name="EditMember_Label_NewName.Text" xml:space="preserve">
+    <value>New Name:</value>
+  </data>
+	<data name="EditMember_Label_SelecedMarker.Text" xml:space="preserve">
+    <value>Selected Marker:</value>
+  </data>
+	<data name="EditMember_Label_SelectDevice.Text" xml:space="preserve">
+    <value>Select Device:</value>
+  </data>
+	<data name="EditMember_Label_SelectMarker.Text" xml:space="preserve">
+    <value>Select Marker:</value>
+  </data>
+	<data name="EditMember_Text_NewName.ToolTip" xml:space="preserve">
+    <value>8 characters max</value>
+  </data>
+	<data name="EditMember_Validator_NameRequired.Text" xml:space="preserve">
+    <value> Name required!</value>
+  </data>
+	<data name="EditMember_Grid_SelectAMarker.ToolTip" xml:space="preserve">
+    <value>Select a marker.</value>
+  </data>
+	<data name="EditMember_Message_FleetownersCannotDelete" xml:space="preserve">
+    <value>Fleetowners cannot delete themselves</value>
+  </data>
+	<data name="EditMember_Message_MsisdnNotTheSame" xml:space="preserve">
+    <value>The network operator choice entered has not been accepted. A different network has already been entered into findWhere for this mobile number. Please go to the &amp;quot;Admin&amp;quot; menu and select &amp;quot;View member details&amp;quot; to see the current network setting. To change the network setting, please contact the helpdesk.</value>
+  </data>
+	<data name="EditMember_Button_OkCancel_OkCancel" xml:space="preserve">
+    <value>Send &amp; Close</value>
+  </data>
+	<data name="EditMember_Button_OkCancel_Ok" xml:space="preserve">
+    <value>Send</value>
+  </data>
+
+</root>

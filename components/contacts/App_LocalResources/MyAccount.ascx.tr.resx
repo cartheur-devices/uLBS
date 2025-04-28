@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MyAccount_TabContacts_Label_Intro.Text" xml:space="preserve">
+    <value>Burada Yetkililerinizi yönetebilirsiniz. Yetkiliye bildiri gitmesini isterseniz. Bildirimler menüsünü kullanınız.</value>
+  </data>
+  <data name="MyAccount_TabBalance_Label_DeviceName.Text" xml:space="preserve">
+    <value>Cihaz adı</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_LogOutTimeZone.Text" xml:space="preserve">
+    <value>Bağlantı süresi ve Zaman Dilimi:</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_PassWordIntro.Text" xml:space="preserve">
+    <value>Şifre değiştirme</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_CompanyName.Text" xml:space="preserve">
+    <value>Şirket adı</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_PostCode.Text" xml:space="preserve">
+    <value>Şirket posta kodu</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_PassWordConfirm.Text" xml:space="preserve">
+    <value>Yeni şifre tasdik</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_DisplayLocationLabels.Text" xml:space="preserve">
+    <value>Haritada cihaz adı</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_Distance.Text" xml:space="preserve">
+    <value>Ölçü birimi</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_EMail.Text" xml:space="preserve">
+    <value>E-mail Adres:</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_PassWordNew.Text" xml:space="preserve">
+    <value>Yeni şifre:</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_PassWordOld.Text" xml:space="preserve">
+    <value>Eski şifre:</value>
+  </data>
+  <data name="MyAccount_TabBalance_Label_From.Text" xml:space="preserve">
+    <value>Başlangıç</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_Intro.Text" xml:space="preserve">
+    <value>Burada hesap detaylarınızı değiştirebilirsiniz.</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_MapOptions.Text" xml:space="preserve">
+    <value>Harita tercihi:</value>
+  </data>
+  <data name="MyAccount_Label_Header_Tab_Personal.Text" xml:space="preserve">
+    <value>Kişisel</value>
+  </data>
+  <data name="MyAccount_TabBalance_Header.Text" xml:space="preserve">
+    <value>Bakiyem</value>
+  </data>
+  <data name="MyAccount_TabMobTrack_Header.Text" xml:space="preserve">
+    <value>Mobile Takip</value>
+  </data>
+  <data name="MyAccount_TabDeleteHistory_OkCancel.Text_Ok" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="MyAccount_TabDeleteHistory_OkCancel.Text_OkClose" xml:space="preserve">
+    <value>Sil ve Kapat</value>
+  </data>
+  <data name="MyAccount_TabDeleteHistoryHeader.Text" xml:space="preserve">
+    <value>Geçmişi Sil</value>
+  </data>
+  <data name="MyAccount_TabDeleteHistoryInfo.Text" xml:space="preserve">
+    <value>Cihaz seçin ve "Geçmişi Sil"e basın.</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_TimeZone.Text" xml:space="preserve">
+    <value>Zaman Dilimi</value>
+  </data>
+  <data name="MyAccount_TabBalance_Label_To.Text" xml:space="preserve">
+    <value>Bitiş</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Label_UserTimeOut.Text" xml:space="preserve">
+    <value>Bağlantı süresi</value>
+  </data>
+  <data name="MyAccount_TabMobTrack_Label_Locate.Text" xml:space="preserve">
+    <value>Konum:</value>
+  </data>
+  <data name="MyAccount_TabMobTrack_Label_Keyword.Text" xml:space="preserve">
+    <value>Anahtar kelime:</value>
+  </data>
+  <data name="MyAccount_TabMobTrack_Label_SmsActionUseId.Text" xml:space="preserve">
+    <value>sms eylemi kullanım no</value>
+  </data>
+  <data name="MyAccount_TabMobTrack_Label_Use.Text" xml:space="preserve">
+    <value>Kullanım:</value>
+  </data>
+  <data name="MyAccount_Label_Header_Tab_Contacts.Text" xml:space="preserve">
+    <value>Yetkililer</value>
+  </data>
+  <data name="MyAccount_TabContacts_Grid_LinkField_Test.Text" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="MyAccount_DDList_Tab_Personal_Item1.Text" xml:space="preserve">
+    <value>Km</value>
+  </data>
+  <data name="MyAccount_DDList_Tab_Personal_Item2.Text" xml:space="preserve">
+    <value>Mil</value>
+  </data>
+  <data name="MyAccount_TabPersonal_DDList_TimeOut_Basic.Text" xml:space="preserve">
+    <value>Standart (20 dakika)</value>
+  </data>
+  <data name="MyAccount_TabContacts_Button_AddContact.OK_Text" xml:space="preserve">
+    <value>Yetkili Ekle</value>
+  </data>
+  <data name="MyAccount_TabPersonal_DDList_TimeOut_Regular.Text" xml:space="preserve">
+    <value>Ortalama (40 dakika)</value>
+  </data>
+  <data name="MyAccount_TabPersonal_DDList_TimeOut_Extended.Text" xml:space="preserve">
+    <value>Extended (90 Mins)</value>
+  </data>
+  <data name="MyAccount_TabPersonal_DDListLocationLabels_Show.Text" xml:space="preserve">
+    <value>Göster</value>
+  </data>
+  <data name="MyAccount_TabPersonal_DDListLocationLabels_Hide.Text" xml:space="preserve">
+    <value>Gizle</value>
+  </data>
+  <data name="MyAccount_TabContacts_Grid_Validator_Message.ErrorMessage" xml:space="preserve">
+    <value>!</value>
+  </data>
+  <data name="MyAccount_TabContacts_Grid_Validator_Message.ToolTip" xml:space="preserve">
+    <value>İsim girin</value>
+  </data>
+  <data name="MyAccount_TabContacts_Grid_Header_Phone.HeaderText" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="MyAccount_TabContacts_Grid_Header_Provider.HeaderText" xml:space="preserve">
+    <value>Provider</value>
+  </data>
+  <data name="MyAccount_TabContacts_Grid_Header_Email.HeaderText" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="MyAccount_Text_Tab_Personal_CompanyName.ToolTip" xml:space="preserve">
+    <value>En fazla 40 harf.</value>
+  </data>
+  <data name="MyAccount_Text_Tab_Personal_PostCode.ToolTip" xml:space="preserve">
+    <value>En fazla 8 harf.</value>
+  </data>
+  <data name="MyAccount_Text_Tab_Personal_PassWordConfirm.ToolTip" xml:space="preserve">
+    <value>En fazla 8 harf.</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Text_EMail.ToolTip" xml:space="preserve">
+    <value>En fazla 50 harf.</value>
+  </data>
+  <data name="MyAccount_TabBalance_Text_FromDate.ToolTip" xml:space="preserve">
+    <value>Başlangıç</value>
+  </data>
+  <data name="MyAccount_Text_Tab_Personal_PassWordNew.ToolTip" xml:space="preserve">
+    <value>En fazla 8 harf.</value>
+  </data>
+  <data name="MyAccount_Text_Tab_Personal_PassWordOld.ToolTip" xml:space="preserve">
+    <value>En fazla 8 harf.</value>
+  </data>
+  <data name="MyAccount_TabBalance_Text_ToDate.ToolTip" xml:space="preserve">
+    <value>Bitiş</value>
+  </data>
+  <data name="MyAccount_TabContacts_Message_SMSMessage" xml:space="preserve">
+    <value>Test mesajı gönderildi. Bu numara %1 geçerli.</value>
+  </data>
+  <data name="MyAccount_TabContacts_Message_InvalidName" xml:space="preserve">
+    <value>Geçersiz isim var.</value>
+  </data>
+  <data name="MyAccount_TabContacts_Message_InvalidEmail" xml:space="preserve">
+    <value>Geçersiz mail adresi var.</value>
+  </data>
+  <data name="MyAccount_TabContacts_Message_InvalidPhoneEmail" xml:space="preserve">
+    <value>Yetkililerin telefonu veya mail adresi olmalı.</value>
+  </data>
+  <data name="MyAccount_TabContacts_Message_ContactsSaved" xml:space="preserve">
+    <value>Değişiklikler kaydedildi.</value>
+  </data>
+  <data name="MyAccount_TabContacts_Message_ContactsNotSaved" xml:space="preserve">
+    <value>Yetkili silinmedi. Bildiri için mi kullanılıyor?</value>
+  </data>
+  <data name="MyAccount_TabContacts_Message_PersonalSettingsStored" xml:space="preserve">
+    <value>Ayarlar kaydedildi.</value>
+  </data>
+  <data name="MyAccount_TabContacts_Message_PersonalSettingsNOTStored" xml:space="preserve">
+    <value>Ayarlar kaydedilmedi.</value>
+  </data>
+  <data name="MyAccount_TabContacts_Message_ChangesToServer" xml:space="preserve">
+    <value>Değişiklikler sunucuya gönderildi.</value>
+  </data>
+  <data name="MyAccount_TabContacts_Message_Saved" xml:space="preserve">
+    <value>Kaydedildi.</value>
+  </data>
+  <data name="MyAccount_TabBalance_Button_OkCancel_ShowBalance.Text_Ok" xml:space="preserve">
+    <value>Bakiye Göster</value>
+  </data>
+  <data name="MyAccount_TabPersonal_Regex_EMail.ErrorMessage" xml:space="preserve">
+    <value>Geçerli bir mail adresi girin.</value>
+  </data>
+  <data name="MyAccount_TabBalance_OkCancel.Text_Ok" xml:space="preserve">
+    <value>Göster</value>
+  </data>
+  <data name="MyAccount_TabBalance_OkCancel.Text_OkClose" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <data name="MyAccount_TabContacts_Message_InvalidPhone" xml:space="preserve">
+    <value>Geçerli bir numara girin.</value>
+  </data>
+  <data name="MyAccount_TabHistory_Message_HistoryDeleted" xml:space="preserve">
+    <value>Geçmiş silindi.</value>
+  </data>
+  <data name="MyAccount_GridBalance_Charge.Text" xml:space="preserve">
+    <value>Kredi</value>
+  </data>
+  <data name="MyAccount_GridBalance_Cost.Text" xml:space="preserve">
+    <value>Ücret</value>
+  </data>
+  <data name="MyAccount_GridBalance_DateTime.Text" xml:space="preserve">
+    <value>Zaman / Tarih</value>
+  </data>
+  <data name="MyAccount_GridBalance_Description.Text" xml:space="preserve">
+    <value>Tanım</value>
+  </data>
+  <data name="MyAccount_GridBalance_Note.Text" xml:space="preserve">
+    <value>(Not: Vergi hariç.)</value>
+  </data>
+  <data name="MyAccount_GridBalance_Quantity.Text" xml:space="preserve">
+    <value>Miktar</value>
+  </data>
+  <data name="MyAccount_GridBalance_Total.Text" xml:space="preserve">
+    <value>Ödeme</value>
+  </data>
+  <data name="MyAccount_TabContacts_Message_ContactDeleted" xml:space="preserve">
+    <value>Yetkili silindi.</value>
+  </data>
+  <data name="MyAccount_TabChangePlanHeader.Text" xml:space="preserve">
+    <value>Abone değiştirme</value>
+  </data>
+  <data name="MyAccount_TabTopUpHeader.Text" xml:space="preserve">
+    <value>Yükselt</value>
+  </data>
+  <data name="MyAccount_TabChangePlan_Ok" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="MyAccount_TabTopUp_Ok" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="MyAccount_GridBalance_AccountBalance.Text" xml:space="preserve">
+    <value>Bakiye</value>
+  </data>
+  <data name="MyAccount_AccountBalance.Text" xml:space="preserve">
+    <value>Üye %1 için bakiye: %2 kredi.</value>
+  </data>
+  <data name="MyAccount_GridBalance_DescriptionFooter.Text" xml:space="preserve">
+    <value>Toplam Ödenen / Harcanan</value>
+  </data>
+  <data name="MyAccount_TabChangePlanSelectDeviceChangePlan.Text" xml:space="preserve">
+    <value>Cihaz seçin</value>
+  </data>
+  <data name="MyAccount_TabTopUpSelectDeviceTopUp.Text" xml:space="preserve">
+    <value>Cihaz seçin</value>
+  </data>
+  <data name="MyAccount_lblMyAccountIntroSMSAction.Text" xml:space="preserve">
+    <value>Cihazlarınızı takip için her zaman bir bilgisayara ihtiyacınız yok. Aşağıda gerekli ayarları yaptıktan sonra sunucumuza (+447786200498) kısa mesaj atabilirsiniz. Sonuçlar size sms'le gönderilecek.</value>
+  </data>
+</root>

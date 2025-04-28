@@ -1,0 +1,314 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ED420160-D2FD-4437-9D28-F10C55E4DB28}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>OpenNETCF</AssemblyName>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OutputFileFolder>\Program Files\OpenNETCF</OutputFileFolder>
+    <RootNamespace>OpenNETCF</RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <FormFactorID>
+    </FormFactorID>
+    <OSVersion>5.02</OSVersion>
+    <SignAssembly>false</SignAssembly>
+    <SccProjectName>"%24/Development/Mobile/WindowsMobile/Source", UKTAAAAA</SccProjectName>
+    <SccLocalPath>..</SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>MSSCCI:Microsoft Visual SourceSafe</SccProvider>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <NativePlatformName>Windows Mobile 6 Professional SDK</NativePlatformName>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PlatformID>b2c48bd2-963d-4549-9169-1fa021dce484</PlatformID>
+    <PlatformFamilyName>PocketPC</PlatformFamilyName>
+    <DeployDirSuffix>$(AssemblyName)</DeployDirSuffix>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>0</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>OpenNETCF.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>512</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <GenerateSerializationAssemblies>off</GenerateSerializationAssemblies>
+    <NoWarn>1591</NoWarn>
+    <ErrorReport>prompt</ErrorReport>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>0</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DocumentationFile>OpenNETCF.xml</DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>512</FileAlignment>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <GenerateSerializationAssemblies>off</GenerateSerializationAssemblies>
+    <ErrorReport>prompt</ErrorReport>
+    <NoWarn>1591;0618</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'NDoc|AnyCPU' ">
+    <OutputPath>bin\NDoc\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>0</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE;NDOC</DefineConstants>
+    <DocumentationFile>OpenNETCF.xml</DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <GenerateSerializationAssemblies>off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug Standard|AnyCPU' ">
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug Standard\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>0</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>OpenNETCF.xml</DocumentationFile>
+    <FileAlignment>512</FileAlignment>
+    <NoWarn>1591</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug Professional LC|AnyCPU' ">
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug Professional LC\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>0</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>OpenNETCF.xml</DocumentationFile>
+    <FileAlignment>512</FileAlignment>
+    <NoWarn>1591</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release Professional LC|AnyCPU' ">
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <OutputPath>bin\Release Professional LC\</OutputPath>
+    <BaseAddress>0</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>OpenNETCF.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <FileAlignment>512</FileAlignment>
+    <NoWarn>1591;0618</NoWarn>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug Standard LC|AnyCPU' ">
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug Standard LC\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>0</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>OpenNETCF.xml</DocumentationFile>
+    <FileAlignment>512</FileAlignment>
+    <NoWarn>1591</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release Standard LC|AnyCPU' ">
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <OutputPath>bin\Release Standard LC\</OutputPath>
+    <BaseAddress>0</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>OpenNETCF.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <FileAlignment>512</FileAlignment>
+    <NoWarn>1591;0618</NoWarn>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.WindowsCE.Forms" />
+    <Reference Include="mscorlib">
+      <Name>mscorlib</Name>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.Xml</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NativeMethods.cs" />
+    <Content Include="IO\FileSystemWatcher.bmp" />
+    <Content Include="machine.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\AssemblyVersion.cs">
+      <Link>Properties\AssemblyVersion.cs</Link>
+    </Compile>
+    <Compile Include="AddressType.cs" />
+    <Compile Include="ConnectionManager\ConnMgr.2.2.cs" />
+    <Compile Include="ConnectionManager\ConnMgr.cs" />
+    <Compile Include="ConnectionManager\ConnMgrConnectionInfo.cs" />
+    <Compile Include="ConnectionManager\ConnMgrDestinationInfo.cs" />
+    <Compile Include="ConnectionManager\ConnMgrDestinationInfoCollection.cs" />
+    <Compile Include="ConnectionManager\ConnMgrEnums.cs" />
+    <Compile Include="ConnectionManager\ConnMgrSafeNativeMethods.2.2.cs" />
+    <Compile Include="ConnectionManager\ConnMgrSafeNativeMethods.cs" />
+    <Compile Include="ConnectionManager\ConnMgrWndProc.cs" />
+    <Compile Include="ConnectionManager\StatusNotificationPump.cs" />
+    <Compile Include="DeviceManagement.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="IO\DelimitedTextWriter.cs" />
+    <Compile Include="IO\DriveInfo.cs" />
+    <Compile Include="IO\FileAccess2.cs" />
+    <Compile Include="IO\FileCreateDisposition.cs" />
+    <Compile Include="IO\FileFlags.cs" />
+    <Compile Include="IO\FileHelper.cs" />
+    <Compile Include="IO\FileSystemEventArgs.cs" />
+    <Compile Include="IO\FileSystemMonitor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IO\FileSystemWatcher.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IO\MemoryMappedFile.cs" />
+    <Compile Include="IO\NativeMethods.cs" />
+    <Compile Include="IO\NotifyFilters.cs" />
+    <Compile Include="IO\PhysicalAddressPointer.cs" />
+    <Compile Include="IO\RenamedEventArgs.cs" />
+    <Compile Include="IO\StreamInterfaceDriver.cs" />
+    <Compile Include="IO\StreamInterfaceDriver_2_2.cs" />
+    <Compile Include="IO\WatcherChangeTypes.cs" />
+    <Compile Include="LargeIntervalTimer.cs" />
+    <Compile Include="NativeMethodsCE.cs" />
+    <Compile Include="Notification\Led.cs" />
+    <Compile Include="Notification\NativeMethods.cs" />
+    <Compile Include="Notification\NotificationAction.cs" />
+    <Compile Include="Notification\NotificationCommandLine.cs" />
+    <Compile Include="Notification\NotificationEvent.cs" />
+    <Compile Include="Notification\NotificationStatus.cs" />
+    <Compile Include="Notification\NotificationType.cs" />
+    <Compile Include="Notification\Notify.cs" />
+    <Compile Include="Notification\UserNotification.cs" />
+    <Compile Include="Notification\UserNotificationInfoHeader.cs" />
+    <Compile Include="Notification\UserNotificationTrigger.cs" />
+    <Compile Include="Runtime\InteropServices\Marshal2.cs" />
+    <Compile Include="Runtime\InteropServices\SafeHandle.cs" />
+    <Compile Include="Runtime\InteropServices\SYSTEMTIME.cs" />
+    <Compile Include="Sms\NotificationProviderSpecificData.cs" />
+    <Compile Include="Sms\ProviderSpecificData.cs" />
+    <Compile Include="Sms\Sms.cs" />
+    <Compile Include="Sms\SmsAddress.cs" />
+    <Compile Include="Sms\SmsEnumerations.cs" />
+    <Compile Include="Sms\SmsMessage.cs" />
+    <Compile Include="Sms\SmsMessageProtocol.cs" />
+    <Compile Include="Sms\SmsMessageStatus.cs" />
+    <Compile Include="Sms\TextProviderSpecificData.cs" />
+    <Compile Include="Threading\EventResetMode.cs" />
+    <Compile Include="Threading\EventWaitHandle.cs" />
+    <Compile Include="Threading\EventWaitHandle_2_2.cs" />
+    <Compile Include="Threading\Monitor2.cs" />
+    <Compile Include="Threading\NamedMutex.cs" />
+    <Compile Include="Threading\NativeMethods.cs" />
+    <Compile Include="Threading\SafeThreadHandle.cs" />
+    <Compile Include="Threading\Semaphore.cs" />
+    <Compile Include="Threading\SemaphoreFullException.cs" />
+    <Compile Include="Threading\Thread2.cs" />
+    <Compile Include="Threading\WaitHandleCannotBeOpenedException.cs" />
+    <Compile Include="Win32\SafeHandles\SafeFileHandle.cs" />
+    <Compile Include="Win32\SafeHandles\SafeHandleMinusOneIsInvalid.cs" />
+    <Compile Include="Win32\SafeHandles\SafeHandleZeroOrMinusOneIsInvalid.cs" />
+    <Compile Include="Win32\SafeHandles\SafeWaitHandle.cs" />
+    <Compile Include="Win32\SystemTime.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IO\FileSystemWatcher.xmta" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v1.0'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.v1.targets" />
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v2.0'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

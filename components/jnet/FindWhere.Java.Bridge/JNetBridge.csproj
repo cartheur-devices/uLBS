@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="2.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4021F0DF-94F7-4C8D-A507-33411C6BD9AE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JNETBridge</RootNamespace>
+    <AssemblyName>JNetBridge</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\JNetBridge.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Cell.cs" />
+    <Compile Include="ReplyClasses\SymmetryResetDeviceJavaCallReply.cs" />
+    <Compile Include="AccountDetailsJavaCall.cs" />
+    <Compile Include="Classes\JnetBridgeLoginUnit.cs" />
+    <Compile Include="ContactsJavaCall.cs" />
+    <Compile Include="BalanceJavaCall.cs" />
+    <Compile Include="InteractionClasses\ImplementerDataBean.cs" />
+    <Compile Include="InteractionClasses\MemberBalanceData .cs" />
+    <Compile Include="ReplyClasses\SymmetrySetProfileJavaCallReply.cs" />
+    <Compile Include="SymmetryResetDeviceJavaCall.cs" />
+    <Compile Include="SymmetrySetProfileJavaCall.cs" />
+    <Compile Include="InteractionClasses\SymmetryProfileDisplayHelper.cs" />
+    <Compile Include="ReplyClasses\SymmetryProfilesJavaCallReply.cs" />
+    <Compile Include="SymmetryProfilesJavaCall.cs" />
+    <Compile Include="ReplyClasses\SymmetryJavaCallReply.cs" />
+    <Compile Include="SymmetryJavaCall.cs" />
+    <Compile Include="InteractionClasses\EnforaIO.cs" />
+    <Compile Include="InteractionClasses\SymConfigData.cs" />
+    <Compile Include="InteractionClasses\SymmetryProfileData.cs" />
+    <Compile Include="InteractionClasses\SymPosData.cs" />
+    <Compile Include="ReplyClasses\StorePasswordAndTimezoneJavaCalReply.cs" />
+    <Compile Include="StorePasswordAndTimezoneJavaCall.cs" />
+    <Compile Include="GetReverseeGeocodeJavaCall.cs" />
+    <Compile Include="ForgotEmailJavaCall.cs" />
+    <Compile Include="HelpJavaCall.cs" />
+    <Compile Include="InteractionClasses\Definitions.cs" />
+    <Compile Include="InteractionClasses\HelpDisplayHelper.cs" />
+    <Compile Include="InteractionClasses\TemplatesDisplayHelper.cs" />
+    <Compile Include="ReplyClasses\GetReverseGeoceodeJavaCallReply.cs" />
+    <Compile Include="ReplyClasses\ForgotEmailJavaCallReply.cs" />
+    <Compile Include="ReplyClasses\HelpJavaCallReply.cs" />
+    <Compile Include="TemplatesJavaCall.cs" />
+    <Compile Include="MemberDetailsJavaCall.cs" />
+    <Compile Include="InteractionClasses\ProdileData.cs" />
+    <Compile Include="ReplyClasses\TemplatesJavaCallReply.cs" />
+    <Compile Include="ReplyClasses\MemberDetailsJavaCallReply.cs" />
+    <Compile Include="ReplyClasses\TTProfileJavaCallReply.cs" />
+    <Compile Include="TTProfileJavaCall.cs" />
+    <Compile Include="OcellusProfilesJavaCall.cs" />
+    <Compile Include="InteractionClasses\EnforaConfigDBObject.cs" />
+    <Compile Include="InteractionClasses\OcellusConfigData.cs" />
+    <Compile Include="InteractionClasses\OcellusProfileDisplayHelper.cs" />
+    <Compile Include="InteractionClasses\TTConfigDBObject.cs" />
+    <Compile Include="InteractionClasses\WIConfigDBObject.cs" />
+    <Compile Include="ReplyClasses\OcellusProfilesJavaCallReply.cs" />
+    <Compile Include="TTJavaCall.cs" />
+    <Compile Include="OcellusJavaCall.cs" />
+    <Compile Include="ReplyClasses\TTJavaCallReply.cs" />
+    <Compile Include="ReplyClasses\OcellusJavaCallReply.cs" />
+    <Compile Include="WIJavaCall.cs" />
+    <Compile Include="EnforaJavaCall.cs" />
+    <Compile Include="InteractionClasses\BalanceDisplayHelper.cs" />
+    <Compile Include="InteractionClasses\BalanceHelper.cs" />
+    <Compile Include="ReplyClasses\ContactsJavaCallReply.cs" />
+    <Compile Include="ReplyClasses\BalanceJavaCallReply.cs" />
+    <Compile Include="ReplyClasses\WIJavaCallReply.cs" />
+    <Compile Include="ReplyClasses\EnforaJavaCallReply.cs" />
+    <Compile Include="ReplyClasses\SendEmailJavaCallReply.cs" />
+    <Compile Include="SendEmailJavaCall.cs" />
+    <Compile Include="PopupNotificationJavaCall.cs" />
+    <Compile Include="InteractionClasses\AccountDetailsDisplayHelper.cs" />
+    <Compile Include="InteractionClasses\ContactsDisplayHelper.cs" />
+    <Compile Include="InteractionClasses\TimewindowDisplayHelper.cs" />
+    <Compile Include="InteractionClasses\UserAccountData.cs" />
+    <Compile Include="InterfaceJavaCall.cs" />
+    <Compile Include="MemberJavaCall.cs" />
+    <Compile Include="GeoCodingJavaCall.cs" />
+    <Compile Include="GroupsJavaCall.cs" />
+    <Compile Include="MemberListJavaCall.cs" />
+    <Compile Include="InteractionClasses\MemberListDisplayHelper.cs" />
+    <Compile Include="ReplyClasses\AccountDetailsJavaCallReply.cs" />
+    <Compile Include="ReplyClasses\PopupNotificationJavaCallReply.cs" />
+    <Compile Include="ReplyClasses\InterfaceJavaCallReply.cs" />
+    <Compile Include="ReplyClasses\MemberJavaCallReply.cs" />
+    <Compile Include="ReplyClasses\GeocodingCallReply.cs" />
+    <Compile Include="ReplyClasses\GroupsJavaCallReply.cs" />
+    <Compile Include="ReplyClasses\MemberListJavaCallReply.cs" />
+    <Compile Include="InteractionClasses\OcellusVarData.cs" />
+    <Compile Include="InteractionClasses\OcellusAdditionalVariablesDisplayHelper.cs" />
+    <Compile Include="OcellusAddVarsJavaCall.cs" />
+    <Compile Include="GetVarsJavaCall.cs" />
+    <Compile Include="InteractionClasses\ContactData.cs" />
+    <Compile Include="InteractionClasses\NotificationMsgData.cs" />
+    <Compile Include="InteractionClasses\NotifMsgListDisplayHelper.cs" />
+    <Compile Include="NotificationMsgJavaCall.cs" />
+    <Compile Include="InteractionClasses\LBSRequestData.cs" />
+    <Compile Include="InteractionClasses\PositionsDisplayHelper.cs" />
+    <Compile Include="InteractionClasses\TTMessageData.cs" />
+    <Compile Include="ListPositionsJavaCall.cs" />
+    <Compile Include="InteractionClasses\GISCoordinate.cs" />
+    <Compile Include="InteractionClasses\LatLong.cs" />
+    <Compile Include="InteractionClasses\MapDisplayHelper.cs" />
+    <Compile Include="InteractionClasses\MapUrlHelper.cs" />
+    <Compile Include="InteractionClasses\TeydoUtil.cs" />
+    <Compile Include="InteractionClasses\UserPositionData.cs" />
+    <Compile Include="InteractionClasses\ZoomLevelHelper.cs" />
+    <Compile Include="LastPositionsJavaCall.cs" />
+    <Compile Include="InteractionClasses\NotificationData.cs" />
+    <Compile Include="InteractionClasses\NotificationListDisplayHelper.cs" />
+    <Compile Include="NotificationJavaCall.cs" />
+    <Compile Include="GeofenceMembListJavaCall.cs" />
+    <Compile Include="GeofenceActionJavaCall.cs" />
+    <Compile Include="MessagesJavaCall.cs" />
+    <Compile Include="InteractionClasses\AnswerHelper.cs" />
+    <Compile Include="InteractionClasses\FOLProperties.cs" />
+    <Compile Include="InteractionClasses\GeoFenceData.cs" />
+    <Compile Include="InteractionClasses\GeoFenceListDisplayHelper.cs" />
+    <Compile Include="InteractionClasses\GeoFenceMembData.cs" />
+    <Compile Include="InteractionClasses\GeoFenceMembListDisplayHelper.cs" />
+    <Compile Include="InteractionClasses\GlobalConstants.cs" />
+    <Compile Include="InteractionClasses\GroupsAndMembersData.cs" />
+    <Compile Include="InteractionClasses\MemberData.cs" />
+    <Compile Include="InteractionClasses\MiscContentHelper.cs" />
+    <Compile Include="InteractionClasses\RepositoryData.cs" />
+    <Compile Include="InteractionClasses\ResponseTypeHelper.cs" />
+    <Compile Include="InteractionClasses\SMData.cs" />
+    <Compile Include="InteractionClasses\SmListDisplayHelper.cs" />
+    <Compile Include="InteractionClasses\UserData.cs" />
+    <Compile Include="InteractionClasses\UserInfoData.cs" />
+    <Compile Include="Classes\Utils.cs" />
+    <Compile Include="JavaCall.cs" />
+    <Compile Include="ReplyClasses\OcellusAddVarsJavaCallReply.cs" />
+    <Compile Include="ReplyClasses\GetVarsJavaCallReply.cs" />
+    <Compile Include="ReplyClasses\NotificationMsgJavaCallReply.cs" />
+    <Compile Include="ReplyClasses\ListPositionsJavaCallReply.cs" />
+    <Compile Include="ReplyClasses\LastPositionsJavaCallReply.cs" />
+    <Compile Include="ReplyClasses\NotificationJavaCallReply.cs" />
+    <Compile Include="ReplyClasses\GeofenceMembListJavaCallReply.cs" />
+    <Compile Include="ReplyClasses\GeofenceActionJavaCallReply.cs" />
+    <Compile Include="ReplyClasses\MessagesJavaCallReply.cs" />
+    <Compile Include="ReplyClasses\JavaCallReply.cs" />
+    <Compile Include="LoginJavaCall.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReplyClasses\LoginJavaCallReply.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

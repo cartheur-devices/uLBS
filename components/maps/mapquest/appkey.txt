@@ -1,0 +1,15 @@
+App Name: 
+
+Type: 
+Developer Edition 
+Client ID: 
+85435 
+Email Address: 
+c.a.tucker@cartheur.com 
+Data Manager Password: 
+zE3rP8fJ
+Use this password to access the Data Manager through scripts. 
+eA9rC5uA
+Use this password to access the MapQuest Services directly or by proxy. 
+AppKey: 
+Dmjtd%7Cluu721uynd%2C8w%3Do5-54rxd 

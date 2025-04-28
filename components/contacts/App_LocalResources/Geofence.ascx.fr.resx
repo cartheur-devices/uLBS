@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Geofence_Message_SelectGeoFenceType" xml:space="preserve">
+    <value>Sélectionner un type de Zone Virtuelle</value>
+  </data>
+  <data name="Geofence_TabViewDelete_Grid_NoDataAvailable.EmptyDataText" xml:space="preserve">
+    <value>Pas de Données Disponibles…</value>
+  </data>
+  <data name="Geofence_TabRelation_Label_Active.Text" xml:space="preserve">
+    <value>4. Active</value>
+  </data>
+  <data name="Geofence_TabRelation_Label_To.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="Geofence_TabViewDelete_Grid_To.HeaderText" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="Geofence_TabArea_Label_EnterNewAreaName.Text" xml:space="preserve">
+    <value>Entrer un nouveau nom de zone</value>
+  </data>
+  <data name="Geofence_Message_OneMoreMembers" xml:space="preserve">
+    <value>Sélectionner une ou plusieurs modules</value>
+  </data>
+  <data name="Geofence_TabViewDelete_Grid_GeoFence.Text" xml:space="preserve">
+    <value>Zone Virtuelle</value>
+  </data>
+  <data name="Geofence_TabArea_Label_SelectGefenceName.Text" xml:space="preserve">
+    <value>Sélectionner un nom de Zone Virtuelle:</value>
+  </data>
+  <data name="Geofence_TabRelation_DDList_OutsideDefinedProfile" xml:space="preserve">
+    <value>En dehors du profil défini</value>
+  </data>
+  <data name="Geofence_TabRelation_Label_SendNotificationOnce.Text" xml:space="preserve">
+    <value>4. Envoyer l'alerte une seul fois</value>
+  </data>
+  <data name="Geofence_TabViewDelete_Grid_Active.HeaderText" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Geofence_TabViewDelete_Grid_Device.HeaderText" xml:space="preserve">
+    <value>Module</value>
+  </data>
+  <data name="Geofence_TabRelation_Label_GeofenceType.Text" xml:space="preserve">
+    <value>3. Type de Zone Virtuelle</value>
+  </data>
+  <data name="Geofence_Error_MaxNumberOfOffences" xml:space="preserve">
+    <value>A le nombre maximum de clôtures. S'il vous plaît supprimer l'un des clôtures. Une relation nouvelle ne peut être stockée au moment de l'enlèvement est confirmé par le dispositif.</value>
+  </data>
+  <data name="Geofence_Status_Scheduled" xml:space="preserve">
+    <value>Geofence sera envoyé à le module.</value>
+  </data>
+  <data name="Geofence_TabRelation_Label_From.Text" xml:space="preserve">
+    <value>De</value>
+  </data>
+  <data name="Geofence_TabArea_Label_MoveChangeGeofence.Text" xml:space="preserve">
+    <value>Déplacer la Zone Virtuelle et/ou changer la taille (optionnel)</value>
+  </data>
+  <data name="Geofence_TabRelation_DDList_SelectOption.Text" xml:space="preserve">
+    <value>Sélectionner une option…</value>
+  </data>
+  <data name="Geofence_TabViewDelete_Grid_AlertOnce.HeaderText" xml:space="preserve">
+    <value>Alerte une fois</value>
+  </data>
+  <data name="Geofence_Message_SelectAreaName" xml:space="preserve">
+    <value>Sélectionner un nom de zone</value>
+  </data>
+  <data name="Geofence_TabArea_Button_DeleteGeofence.Text" xml:space="preserve">
+    <value>Effacer</value>
+  </data>
+  <data name="Geofence_TabRelation_Label_Intro.Text" xml:space="preserve">
+    <value>Une relation est une combinaison d'un ou plusieurs membres, une zone, un type et une période pour laquelle la module rapportera si elle se réalise. Appuyer sur Sauvegarder pour archiver </value>
+  </data>
+  <data name="Geofence_TabViewDelete_Grid_From.HeaderText" xml:space="preserve">
+    <value>De</value>
+  </data>
+  <data name="Geofence_Common_SelectOption" xml:space="preserve">
+    <value>Sélectionner une option…</value>
+  </data>
+  <data name="Geofence_TabViewDelete_Grid_Status.HeaderText" xml:space="preserve">
+    <value>Etat</value>
+  </data>
+  <data name="Geofence_TabViewDelete_Grid_GeoFenceHeader.HeaderText" xml:space="preserve">
+    <value>Zone Virtuelle</value>
+  </data>
+  <data name="Geofence_TabRelation_Button_OkCancel.Text_Ok" xml:space="preserve">
+    <value>Stocker</value>
+  </data>
+  <data name="Geofence_TabRelation_DDList_NotificationOnEntry" xml:space="preserve">
+    <value>Alerte en Entrée</value>
+  </data>
+  <data name="Geofence_TabRelation_Text_DateTo.ToolTip" xml:space="preserve">
+    <value>Au</value>
+  </data>
+  <data name="Geofence_TabArea_Button_NewGeofence.Text" xml:space="preserve">
+    <value>Nouveau</value>
+  </data>
+  <data name="Geofence_TabViewDelete_Grid_CSharp_Crossing" xml:space="preserve">
+    <value>Traversée</value>
+  </data>
+  <data name="Geofence_Status_Sent" xml:space="preserve">
+    <value>Geofence envoyé à le module</value>
+  </data>
+  <data name="Geofence_TabViewDelete_Header.Text" xml:space="preserve">
+    <value>Voir / Supprimer</value>
+  </data>
+  <data name="Geofence_Common_SelectFence" xml:space="preserve">
+    <value>Sélectionner une zone…</value>
+  </data>
+  <data name="Geofence_TabViewDelete_Grid_InOut.Text" xml:space="preserve">
+    <value>5. Période</value>
+  </data>
+  <data name="Geofence_TabArea_Label_CreateFence.Text" xml:space="preserve">
+    <value>Créer une zone: après avoir entrée un nouveau nom, clic gauche sur la carte pour définir approximativement le centre de la zone. Puis cliquer sur le bouton Archiver et Fermer pour sauvegarder.</value>
+  </data>
+  <data name="Geofence_TabRelation_DDList_Always" xml:space="preserve">
+    <value>Toujours</value>
+  </data>
+  <data name="Geofence_TabArea_Header.Text" xml:space="preserve">
+    <value>Zone</value>
+  </data>
+  <data name="Geofence_TabRelation_DDList_DuringDefinedProfile" xml:space="preserve">
+    <value>Durant le profile défini</value>
+  </data>
+  <data name="Geofence_Status_ToBeDeleted" xml:space="preserve">
+    <value>Geofence sera supprimé</value>
+  </data>
+  <data name="Geofence_TabArea_Label_ToMoveText.Text" xml:space="preserve">
+    <value>Pour déplacer la zone, vous pouvez utiliser les flèches en dessous. Appuyer sur - pour diminuer la taille du cercle et +  pour l'augmenter. Pour sauvegarder votre zone personnalisée, cliquer sur Archiver.</value>
+  </data>
+  <data name="Geofence_Message_SelectOption" xml:space="preserve">
+    <value>Veuillez sélectionner une option dans la liste</value>
+  </data>
+  <data name="Geofence_Message_RelationDeleted" xml:space="preserve">
+    <value>Supprimer la relation</value>
+  </data>
+  <data name="Geofence_TabArea_Button_InsertGeofence.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="Geofence_TabArea_Button_CancelGeofenceClose.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="Geofence_TabViewDelete_Grid_InOutHeader.HeaderText" xml:space="preserve">
+    <value>A l'intérieur/ A l'extérieur</value>
+  </data>
+  <data name="Geofence_TabRelation_Label_SelectDeviceName.Text" xml:space="preserve">
+    <value>1. Sélectionner le(s) Module(s)</value>
+  </data>
+  <data name="Geofence_TabRelation_Label_AreaName.Text" xml:space="preserve">
+    <value>2. Nom de la zone</value>
+  </data>
+  <data name="Geofence_TabRelation_DDList_NotificationOnExit" xml:space="preserve">
+    <value>Alerte en Sortie</value>
+  </data>
+  <data name="Geofence_TabArea_Button_GeofenceStoreClose.Text" xml:space="preserve">
+    <value>Archiver et Fermer</value>
+  </data>
+  <data name="Geofence_TabRelation_Text_FromDate.ToolTip" xml:space="preserve">
+    <value>A partir du</value>
+  </data>
+  <data name="Geofence_TabRelation_Check_Yes.Text" xml:space="preserve">
+    <value>Oui</value>
+  </data>
+  <data name="Geofence_TabRelation_Header.Text" xml:space="preserve">
+    <value>Relation</value>
+  </data>
+  <data name="Geofence_Message_RelationStored" xml:space="preserve">
+    <value>Relation Stockées</value>
+  </data>
+  <data name="Geofence_TabArea_Label_SelectAreaNameText.Text" xml:space="preserve">
+    <value>Sélectionner un nom de Zone Virtuelle pour la trouver ou la modifier.  
+- Plus d'instructions seront affichés. Après les changements et l'archivage de la zone virtuelle. Pour activer la zone virtuelle vous devez procéder à la configuration des onglets REL</value>
+  </data>
+  <data name="Geofence_TabArea_Button_EditStore.Text" xml:space="preserve">
+    <value>Archiver</value>
+  </data>
+  <data name="Geofence_ButtonDelete.Text" xml:space="preserve">
+    <value>Suppression</value>
+  </data>
+</root>
