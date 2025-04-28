@@ -1,0 +1,56 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mapIt", "mapIt.csproj", "{3C3CD712-C951-4DB2-8C2B-C0DA5B625DCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteNoServerSession", "RouteNoServerSession.csproj", "{3C5EB82F-B7E7-438B-A11D-E084C585A7B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "searchIt", "searchIt.csproj", "{77895678-8C6E-415A-A1B5-1512C0AF2DE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "geocodeIt", "geocodeIt.csproj", "{B39FDD23-E4A0-4316-9BB2-7F5C84760468}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mapItWithPrimitives", "mapItWithPrimitives.csproj", "{056763A8-9538-418B-A8D0-777676B0C129}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mapWithPOI", "mapWithPOI.csproj", "{EFFA21F4-55DD-40A5-BE7E-17F5FF552ED7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "routeWithServerSession", "routeWithServerSession.csproj", "{B11BEDE9-5188-492D-99F1-5A915F45B104}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "searchAndDisplayIt", "searchAndDisplayIt.csproj", "{FBBEDC3C-B332-4101-90F7-E7DEEEEC12A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "searchAndDisplayItWithRouteDistance", "searchAndDisplayItWithRouteDistance.csproj", "{0AEB35D0-FD70-45A2-B13B-77088B0D62BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C3CD712-C951-4DB2-8C2B-C0DA5B625DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C3CD712-C951-4DB2-8C2B-C0DA5B625DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C3CD712-C951-4DB2-8C2B-C0DA5B625DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C3CD712-C951-4DB2-8C2B-C0DA5B625DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C5EB82F-B7E7-438B-A11D-E084C585A7B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C5EB82F-B7E7-438B-A11D-E084C585A7B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C5EB82F-B7E7-438B-A11D-E084C585A7B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C5EB82F-B7E7-438B-A11D-E084C585A7B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77895678-8C6E-415A-A1B5-1512C0AF2DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77895678-8C6E-415A-A1B5-1512C0AF2DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B39FDD23-E4A0-4316-9BB2-7F5C84760468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B39FDD23-E4A0-4316-9BB2-7F5C84760468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056763A8-9538-418B-A8D0-777676B0C129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056763A8-9538-418B-A8D0-777676B0C129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFFA21F4-55DD-40A5-BE7E-17F5FF552ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFFA21F4-55DD-40A5-BE7E-17F5FF552ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B11BEDE9-5188-492D-99F1-5A915F45B104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B11BEDE9-5188-492D-99F1-5A915F45B104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBBEDC3C-B332-4101-90F7-E7DEEEEC12A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBBEDC3C-B332-4101-90F7-E7DEEEEC12A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AEB35D0-FD70-45A2-B13B-77088B0D62BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AEB35D0-FD70-45A2-B13B-77088B0D62BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = 
+	EndGlobalSection
+EndGlobal
