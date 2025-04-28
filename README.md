@@ -6,3 +6,4 @@ Location-based service apps for CF.
 
 * Position-sender mobile GPS application on `main`
 * Mobile tracker GPS/GPRS application for discrete control and privacy on `dev` 
+* Samples on `samples`
