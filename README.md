@@ -6,3 +6,5 @@ Location-based service app for CF.
 
 * Plain GPS application on `main`
 * Deep development project for GPS/GPRS control and privacy on `dev` 
+
+More parts to be added as time allows.
